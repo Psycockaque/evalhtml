@@ -1,0 +1,52 @@
+*{margin: 0%; padding: 0%;}
+body{
+    display: flex;
+}
+.droit{
+    display: flex;
+    background-color: red;
+    flex: 1 ;
+    height: 100vh;
+
+
+}
+.corps{
+    display: flex;
+    flex-direction: row;
+
+}
+.Aside{
+    display: flex;
+    flex: 1;
+    background-color: gray;
+    height: 80vh;
+    
+
+    
+}
+.header{
+    display: flex;
+    height: 20vh;
+    background-color: greenyellow;
+}
+.gauche{
+    display: flex;
+    flex : 3 ;
+    flex-direction: column;
+
+}
+.Article{
+    flex-direction: column;
+    height: 60vh;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    height: 20vh;
+}
+.centre{
+    display: flex;
+    flex-direction: column;
+    flex : 3;
+}
